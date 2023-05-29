@@ -59,6 +59,7 @@ velocities = [0]
 for key in data:
     # Create an instance of the CosmicExpansionCalculator class
     expansion_calculators[key] = CosmicExpansionCalculator(f"{key} cluster")
+    # get the image of each cluster
     expansion_calculators[key].getImageFromTarget()
     # Calculate the distance to the cluster
     data[key]["Cluster Distance (Mpc)"] = expansion_calculators[key].calculateDistance(

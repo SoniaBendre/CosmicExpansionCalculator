@@ -13,6 +13,7 @@ class CosmicExpansionCalculator:
         self.coordinates = self.getCoordinates(self.target)
         self.getGIF(self.coordinates[0], self.coordinates[1])
 
+    # get the coordinates for the target cluster
     def getCoordinates(self, target):
         # Set the URL endpoint
         url = "https://stdatu.stsci.edu/cgi-bin/dss_form"
@@ -43,6 +44,7 @@ class CosmicExpansionCalculator:
         else:
             print("Failed to retrieve the coordinates.")
 
+    # get the image of the target cluster using the coordinates
     def getGIF(self, ra_value, dec_value):
         # Set the URL endpoint
         base_url = "https://stdatu.stsci.edu/cgi-bin/dss_search"
