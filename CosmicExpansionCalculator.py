@@ -3,6 +3,8 @@ from urllib.parse import quote
 from bs4 import BeautifulSoup
 import os
 
+VIRGO_DISTANCE = 18
+
 class CosmicExpansionCalculator:
     def __init__(self, target) -> None:
         self.target = target
@@ -78,3 +80,7 @@ class CosmicExpansionCalculator:
             print("Image saved successfully.")
         else:
             print("Failed to retrieve the image.")
+
+    def calculateDistance(self, virgo_spiral, cluster_spiral):
+        return ((VIRGO_DISTANCE * virgo_spiral)/cluster_spiral)
+        
