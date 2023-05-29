@@ -11,13 +11,21 @@ To execute the calculations and perform the project's analysis, the file driver.
 To use the Cosmic Expansion Calculator, follow these steps:
 
 Clone or download the repository to your local machine.
+
 Make sure you have Python installed (version 3.11.3 or higher).
+
 Open the terminal or command prompt and navigate to the project directory.
-Run the command python driver.py to execute the calculations and generate the results.
+
+Run the command "python driver.py" to execute the calculations and generate the results.
+
 Dependencies
+
 The Cosmic Expansion Calculator relies on the following dependencies:
 
 Python (version 3.11.3)
+
 NumPy (version 1.24.3)
+
 Matplotlib (version 3.7.1)
+
 Make sure these dependencies are installed before running the project.
