@@ -89,16 +89,13 @@ Hubbles_Constant = slope
 print(f"Hubbles_Constant: {Hubbles_Constant} km/s/Mpc")
 
 Hubble_age_in_pc = Hubbles_Constant / (10**6)
-print(
-    f"Hubbles Constant km/s/pc = Hubbles_Constant / (10^6) = {Hubble_age_in_pc} km/s/pc")
+print(f"Hubbles Constant km/s/pc = Hubbles_Constant / (10^6) = {Hubble_age_in_pc} km/s/pc")
 
 Hubble_age_per_second = Hubble_age_in_pc / (3*(10**13))
-print(
-    f"Hubble age per second = Hubble age in pc / (3 x (10^13)) = {Hubble_age_per_second}")
+print(f"Hubble age per second = Hubble age in pc / (3 x (10^13)) = {Hubble_age_per_second}")
 
 Hubble_age_per_year = Hubble_age_per_second * (3.1*(10**7))
-print(
-    f"Hubble age per year = Hubble age per second x 3.1 x (10^7) = {Hubble_age_per_year}")
+print(f"Hubble age per year = Hubble age per second x 3.1 x (10^7) = {Hubble_age_per_year}")
 
 age_of_universe = 1 / Hubble_age_per_year
 print(f"Age of Universe = 1 / Hubble age per year = {age_of_universe} years")
